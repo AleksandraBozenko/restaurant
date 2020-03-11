@@ -9,3 +9,26 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+.header{
+  width: 100%;
+  height: 20vw;
+  background: $yellow;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__logo{
+    width: 50vw;
+    &--text{
+      font-size: 2em;
+      padding: 10px;
+    }
+  }
+  &__menu{
+    width: 30vw;
+    height: 10vw;
+    &--icon{
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
