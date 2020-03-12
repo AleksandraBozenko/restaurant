@@ -27,6 +27,8 @@ html {
   &__hamburger{
     width: 30vw;
     height: 10vw;
+    border: none;
+    background: none;
     &--icon{
       width: 100%;
       height: 100%;
@@ -69,16 +71,21 @@ html {
   height: 100vh;
   display: none;
   &__close{
-    width: 100%;
-    height: 20vw;
+    width: 95%;
+    height: 25vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row-reverse;
-    &--icon{
-      width: 30%;
-      height: 50%;
-      right: 0;
+    &--cross{
+      width: 12vw;
+      height: 12vw;
+      border: none;
+      background: none;
+    }
+    &-icon{
+      width: 100%;
+      height: 100%;
     }
   }
   &__list{

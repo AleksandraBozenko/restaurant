@@ -16,7 +16,7 @@ if ('serviceWorker' in navigator) {
 // Hamburger menu
 
 const hamburger = document.querySelector('.header__hamburger');
-const cross = document.querySelector('.nav__close');
+const cross = document.querySelector('.nav__close--cross');
 
 const header = document.querySelector('.header');
 const nav = document.querySelector('.nav');
