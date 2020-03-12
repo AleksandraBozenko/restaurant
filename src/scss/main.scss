@@ -24,7 +24,7 @@ html {
       padding: 10px;
     }
   }
-  &__menu{
+  &__hamburger{
     width: 30vw;
     height: 10vw;
     &--icon{
@@ -32,6 +32,9 @@ html {
       height: 100%;
     }
   }
+}
+.header--js{
+  display: none;
 }
 .title{
   width: 100%;
@@ -60,4 +63,36 @@ html {
       margin: 0;
     }
   }
+}
+.nav{
+  width: 100%;
+  height: 100vh;
+  display: none;
+  &__close{
+    width: 100%;
+    height: 20vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    &--icon{
+      width: 30%;
+      height: 50%;
+      right: 0;
+    }
+  }
+  &__list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &--item{
+      font-size: 1.4em;
+      padding: 20px;
+    }
+  }
+}
+.nav--js{
+  display: block;
 }

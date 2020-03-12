@@ -1,6 +1,5 @@
 "use strict";
 
-//To jest do pwa nie edytuj tutaj nic ...
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
@@ -14,9 +13,20 @@ if ('serviceWorker' in navigator) {
   });
 }
 
-// Niżej możesz pisać.
+// Hamburger menu
 
+const hamburger = document.querySelector('.header__hamburger');
+const cross = document.querySelector('.nav__close');
 
-console.log(`Hello world!`);
+const header = document.querySelector('.header');
+const nav = document.querySelector('.nav');
 
+hamburger.addEventListener('click', (e) =>{
+  header.classList.toggle('header--js');
+  nav.classList.toggle('nav--js');
+})
 
+cross.addEventListener('click', (e) =>{
+  header.classList.toggle('header--js');
+  nav.classList.toggle('nav--js');
+})
