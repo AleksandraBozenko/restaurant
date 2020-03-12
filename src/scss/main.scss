@@ -40,9 +40,16 @@ html {
 }
 .title{
   width: 100%;
+  height: 90vw;
   // height: 20vw;
   // background: yellow;;
-  // background-image: url('/assets/img/bg.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.438)),url(/assets/img/bg.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  z-index: 1;
+  // opacity: .6;
   &__img{
     width: 100%;
     opacity: .4;
@@ -56,6 +63,7 @@ html {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    color: $white;
     &--bold{
       margin: 0;
       font-weight: normal;
@@ -104,4 +112,7 @@ html {
 }
 .nav--js{
   display: block;
+}
+.eat{
+  // position: absolute;
 }
