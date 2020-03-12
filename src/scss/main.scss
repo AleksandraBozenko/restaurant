@@ -58,11 +58,13 @@ html {
     flex-direction: column;
     &--bold{
       margin: 0;
-      font-weight: middle;
+      font-weight: normal;
       font-size: 1.4em;
     }
     &--regular{
       margin: 0;
+      font-weight: normal;
+      font-size: 1.1em;
     }
   }
 }
