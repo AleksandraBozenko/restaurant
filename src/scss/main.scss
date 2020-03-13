@@ -143,4 +143,13 @@ html {
       }
     }
   }
+  &__description{
+    width: 70vw;
+    color: grey;
+    border-bottom: 1px solid $yellow;
+    display: none;
+  }
+  &__description--js{
+    display: block;
+  }
 }

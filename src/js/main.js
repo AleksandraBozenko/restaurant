@@ -30,3 +30,17 @@ cross.addEventListener('click', (e) =>{
   header.classList.toggle('header--js');
   nav.classList.toggle('nav--js');
 })
+
+// Menu descriptions
+
+const option = document.querySelectorAll('.eat__option--header');
+const description = document.querySelector('.eat__description');
+
+option.forEach(('eat__option--header') =>{
+  option.addEventListener('click',(e) =>{
+    description.classList.toggle('eat__description--js')
+  })
+})
+// option.addEventListener('click', (e) =>{
+//   description.classList.toggle('eat__description--js');
+// })
