@@ -17,6 +17,9 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  // top: 0;
+  // position: fixed;
+  // z-index: 2;
   &__logo{
     width: 50vw;
     &--text{
@@ -105,9 +108,13 @@ html {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    &--item{
-      font-size: 1.4em;
-      padding: 14px;
+    &--link{
+      text-decoration: none;
+      color: $black;
+      &-item{
+        font-size: 1.4em;
+        padding: 14px;
+      }
     }
   }
 }
@@ -115,6 +122,9 @@ html {
   display: block;
 }
 .eat{
+  &__title{
+    font-weight: lighter;
+  }
   background: $black;
   color: $white;
   display: flex;
@@ -188,4 +198,18 @@ html {
     }
   }
 }
-.contact{}
+.contact{
+  background: $black;
+  color: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  &__header{
+    padding: 20px;
+    &--title{
+      margin: 0;
+      font-weight: lighter;
+    }
+  }
+}

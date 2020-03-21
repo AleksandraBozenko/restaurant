@@ -46,21 +46,21 @@
         </button>
       </div>
         <ul class="nav__list">
-          <li class="nav__list--item">HOME</li>
-          <li class="nav__list--item">MENU</li>
-          <li class="nav__list--item">MY ORDER</li>
-          <li class="nav__list--item">OPENING HOURS</li>
-          <li class="nav__list--item">CONTACT US</li>
+          <a class="nav__list--link" href="#home"><li id="home" class="nav__list--link-item">HOME</li</a>
+          <a class="nav__list--link" href="#eat"><li id="menu" class="nav__list--link-item">MENU</li</a>
+          <!-- <a class="nav__list--link" href="order"><li id="" class="nav__list--link-item">MY ORDER</li></a> -->
+          <a class="nav__list--link" href="#openHours"><li id="open" class="nav__list--link-item">OPENING HOURS</li></a>
+          <a class="nav__list--link" href ="#contactUs"><li id="contact" class="nav__list--link-item">CONTACT US</li></a>
         </ul>
       </div>
-      <section class="title">
+      <section class="title" id="home">
         <!-- <img src="/assets/img/bg.jpg" class="title__img"> -->
         <div class="title__text">
           <h1 class="title__text--bold">BURGER'S</h1>
           <h2 class="title__text--regular">the best burgers in California</h2>
         </div>
       </section>
-      <section class="eat">
+      <section class="eat" id="eat">
         <h3 class="eat__title">MENU</h3>
 
         <div class="eat__option">
@@ -116,7 +116,7 @@
           <p class="eat__description--text">tomato, salad, cucumber, meat, onion</p>
         </div>
       </section>
-      <section class="open">
+      <section class="open" id="openHours">
         <header class="open__header">
           <h3 class="open__header--title">Opening hours</h3>
         </header>
@@ -150,8 +150,8 @@
             <p class="open_content--box-hour">11am-23pm</p>
            </div>
         </div>
-      <!-- </section>
-      <section class="contact">
+      </section>
+      <section class="contact" id="contactUs">
         <header class="contact__header">
           <h3 class="contact__header--title">CONTACT US</h3>
         </header>
@@ -160,7 +160,7 @@
           <p class="contact__adress-street">Flowers 23 Street</p>
           <p class="contact__adress-phone">333 333 333</p>
         </div>
-      </section> -->
+      </section>
     </main>
 
     <script src="js/main.js"></script>
