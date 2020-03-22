@@ -34,12 +34,12 @@ cross.addEventListener('click', (e) =>{
 
 // Menu descriptions
 
-const option = document.querySelectorAll('.eat__option--header');
-const description = document.querySelector('.eat__description');
+// const option = document.querySelectorAll('.eat__option--header');
+// const description = document.querySelector('.eat__description');
 
-option.addEventListener('click', (e) =>{
-description.classList.toggle('eat__description--js');
-})
+// option.addEventListener('click', (e) =>{
+// description.classList.toggle('eat__description--js');
+// })
 
 
 // try1
@@ -93,3 +93,17 @@ contact.addEventListener('click', (e) =>{
   nav.classList.toggle('nav--js');
   header.classList.toggle('header--js');
  })
+
+
+
+
+
+
+
+ const option = document.querySelectorAll('.eat__option--header');
+const description = document.querySelector('.eat__description');
+
+
+option.addEventListener('click', (e) =>{
+  description.classList.toggle('eat__description--js');
+}) 
