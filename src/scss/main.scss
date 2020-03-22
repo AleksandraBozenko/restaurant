@@ -184,6 +184,9 @@ html {
     width: 100%;
     display: flex;
     justify-content: center;
+    &--title{
+      margin-bottom: 0;
+    }
   }
   &__content{
     width: 90%;
@@ -273,15 +276,27 @@ html {
     flex-direction: column;
     &--form{
       padding: 20px;
+      display: flex;
+      flex-direction: column;
+      &-button{
+        width: 90px;
+        height: 40px;
+        background: $yellow;
+        border: none;
+        font-weight: bold;
+        font-size: 1.2em;
+        margin: 30px auto;
+      }
     }
-    &--button{
-      width: 90px;
-      height: 40px;
-      background: $yellow;
-      border: none;
-      font-weight: bold;
-      font-size: 1.2em;
-      margin: 20px auto;
-    }
+  }
+}
+.footer{
+  width: 100%;
+  background: $yellow;
+  color: $black;
+  padding: 20px;
+  &__text{
+    margin: 0;
+    text-align: center;
   }
 }
