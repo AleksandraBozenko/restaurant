@@ -100,10 +100,3 @@ contact.addEventListener('click', (e) =>{
 
 
 
- const option = document.querySelectorAll('.eat__option--header');
-const description = document.querySelector('.eat__description');
-
-
-option.addEventListener('click', (e) =>{
-  description.classList.toggle('eat__description--js');
-}) 
