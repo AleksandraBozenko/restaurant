@@ -29,8 +29,8 @@ html {
     }
   }
   &__hamburger{
-    width: 30vw;
-    height: 10vw;
+    width: 100px;
+    height: 35px;
     border: none;
     background: none;
     &--icon{
@@ -101,13 +101,13 @@ html {
   display: none;
   &__close{
     width: 95%;
-    height: 25vw;
+    height: 90px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row-reverse;
     &--cross{
-      width: 10%;
+      width: 12%;
       height: 70%;
       border: none;
       background: none;
