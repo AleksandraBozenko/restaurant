@@ -317,6 +317,22 @@ html {
   }
 }
 
+@media(min-width: 400px){
+  .title{
+    height: 70vh;
+    &__text{
+      margin-top: 30px;
+      &--bold{
+        font-size: 1.9em;
+      }
+      &--regular{
+        font-size: 1.4em;
+        font-weight: lighter;
+      }
+    }
+  }
+}
+
 @media(min-width: 800px){
 .header{
   &__logo{
@@ -326,6 +342,19 @@ html {
   }
   &__hamburger{
       display: none;
+  }
+}
+.title{
+  height: 85vh;
+  &__text{
+    margin-top: 60px;
+    &--bold{
+      font-size: 3.5em;
+    }
+    &--regular{
+      font-size: 1.5em;
+      font-weight: lighter;
+    }
   }
 }
 .menu{
