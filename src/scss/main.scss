@@ -191,11 +191,12 @@ html {
 }
 .open{
   width: 100%;
-  background: $yellow;
+  background: rgb(226, 226, 226);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 50px;
   &__header{
     width: 100%;
     display: flex;
