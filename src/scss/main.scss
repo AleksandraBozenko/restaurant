@@ -339,6 +339,20 @@ html {
       }
     }
   }
+  .eat{
+    &__option{
+      &--header{
+      width: 300px;
+      justify-content: flex-start;
+      &-price{
+        margin-left: 200px;
+      }
+      }
+    }
+    &__description{
+      width: 300px;
+    }
+  }
 }
 
 @media(min-width: 800px){
@@ -368,6 +382,24 @@ html {
 .menu{
   display: block;
 }
+.eat{
+  &__title{
+    font-size: 2em;
+    padding: 20px;
+  }
+  &__option{
+    &--header{
+    width: 500px;
+    justify-content: flex-start;
+    &-price{
+      margin-left: 400px;
+    }
+    }
+  }
+  &__description{
+    width: 500px;
+  }
+}
 .contact{
   &__content{
   display: flex;
@@ -392,6 +424,20 @@ html {
   .contact{
     &__content{
       width: 900px;
+    }
+  }
+  .eat{
+    &__option{
+      &--header{
+      width: 700px;
+      justify-content: flex-start;
+      &-price{
+        margin-left: 600px;
+      }
+      }
+    }
+    &__description{
+      width: 700px;
     }
   }
 }
