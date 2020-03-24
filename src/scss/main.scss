@@ -27,6 +27,10 @@ html {
       font-size: 1.5em;
       padding: 10px;
     }
+    &--link{
+      text-decoration: none;
+      color: $black
+    }
   }
   &__hamburger{
     width: 100px;
@@ -144,9 +148,7 @@ html {
   }
   background: $black;
   color: $white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ @include center;
   flex-direction: column;
   padding: 20px;
   &__option{
@@ -161,6 +163,9 @@ html {
       display: flex;
       justify-content: space-around;
       align-items: center;
+      &-price{
+        width: 40px;
+      }
     }
     &--icon{
       width: 40px;
@@ -192,9 +197,7 @@ html {
 .open{
   width: 100%;
   background: rgb(226, 226, 226);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ @include center;
   flex-direction: column;
   padding: 50px;
   &__header{
@@ -230,9 +233,7 @@ html {
 .contact{
   background: $black;
   color: $white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ @include center;
   flex-direction: column;
   &__content{
     width: 100%;
@@ -393,6 +394,7 @@ html {
     justify-content: flex-start;
     &-price{
       margin-left: 400px;
+      width: 500px;
     }
     }
   }
