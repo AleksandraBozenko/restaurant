@@ -3,7 +3,7 @@
 
 ## What I used
 
-HTML5, SCSS, JAVASCRIPT
+HTML5, SCSS, JavaScript
 
 ## How to run my site locally
 
