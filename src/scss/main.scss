@@ -18,9 +18,9 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  // top: 0;
-  // position: fixed;
-  // z-index: 2;
+  top: 0;
+  position: sticky;
+  z-index: 2;
   &__logo{
     width: 50vw;
     &--text{
@@ -196,7 +196,7 @@ html {
 }
 .open{
   width: 100%;
-  background: rgb(226, 226, 226);
+  background: $white;
  @include center;
   flex-direction: column;
   padding: 50px;
